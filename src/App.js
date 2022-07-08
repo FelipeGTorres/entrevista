@@ -19,9 +19,8 @@ function getFato() {
         <link rel="stylesheet" href="app.css"/>
         <img src="https://media0.giphy.com/media/13fR00PIYwb7Gg/giphy.gif" className="App-logo" alt="logo" />
         <h1>{fato}</h1>
-                <button style={{
-                  backgroundColor: 'grey'
-                }}
+                <button className='botao'
+                
                   onClick={() => {
                   getFato()
                   console.log(fato)
